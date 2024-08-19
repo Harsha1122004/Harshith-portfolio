@@ -1,0 +1,492 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Montserrat;
+    background-color: rgb(10, 4, 4);
+    color: rgb(248, 248, 248);
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px;
+   
+}
+.header h3{
+    padding-bottom: 2px;
+}
+.header h3:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.nav-bar{
+    justify-content: left;
+    text-align: left;
+    
+}
+
+.nav-bar ul, .social ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.nav-bar ul li, .social ul li{
+        padding: 22px;
+        margin-left: 0px;
+        color: #fff;
+        
+        
+}
+.nav-bar ul li:hover{
+    transform: scale(1.2);
+    color: red;
+}
+
+/* .social :hover{
+    padding-bottom: 5px;
+} */
+.nav-bar ul a, .social ul a{
+    text-decoration: none;
+}
+
+.social ul img{
+    width: 30px;
+    height: auto;
+}
+.social ul img:hover{
+    transform: scale(1.2);
+}
+.name{
+    padding: 35px;
+    font-size: large;
+    
+    /* filter: drop-shadow(10px 10px 10px rgb(200, 53, 30)); */
+ 
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.my-image img{
+   width: 300px;
+   height: inherit;
+   margin-bottom: 0px;
+   filter: drop-shadow(100px 50px 100px rgb(153, 14, 14));
+   padding: 40px;
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+   margin-top: 40px;
+  
+}
+.about-text{
+   
+    width: 500px;
+    height: inherit;
+    justify-content: center;
+    padding-top: 90px;
+
+
+}
+.animation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+.gifs{
+    text-align: center;
+    background-image: url('https://media3.giphy.com/media/S8BdQDfrGYMMwAX1Od/giphy.gif?cid=6c09b952zwbkp2es0cixacbrc0gdyglnmamixsnq7jdiafzc&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    
+    
+
+}
+.gif-2{
+    text-align: center;
+    background-image: url('coding.gif'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+.gif-3{
+    text-align: center;
+    background-image: url('gif-3.gif'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+}
+
+hr{
+    margin: 0px;
+    padding: 0px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.resume{
+    border-radius: 5px;
+    margin-right: 30px;
+    font-size: large;
+    margin-left: 0px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: transparent;
+        border: 2px solid;
+        border-image: linear-gradient(45deg, rgb(250, 250, 250), rgb(255, 246, 246), rgb(228, 231, 228), rgb(255, 255, 255), rgb(239, 239, 239), rgb(183, 173, 183), rgb(194, 187, 187)) 1;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        background-clip: padding-box;
+        border-radius: 10px;
+    }
+    
+    .resume:hover {
+        border-image: linear-gradient(45deg, rgb(172, 17, 17), rgb(168, 27, 38), rgb(182, 14, 45), rgb(141, 8, 32), rgb(141, 5, 48), red, rgb(228, 10, 10)) 1;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+    }
+    
+
+.resume .icon-png img {
+ width: 10px;
+ height: 10px;
+ color: red;    
+
+}
+.talk{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    font-size: large;
+    padding: 10px;
+}
+.talk:hover{
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px;
+}
+/* .hire-me button{
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px white solid;
+}
+.hire-me button:hover{
+    color: black;
+    background-color: white;
+    filter: drop-shadow(10px 20px 10px rgb(153, 14, 14));
+   
+    
+} */
+
+
+ /********* About page********** */
+
+#about-head{
+    padding: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+.about-main{
+  align-content: center;
+ display: flex;
+ padding: 30px;
+ justify-content: space-around;
+ font-family:Montserrat;
+}
+.about-main img{
+    align-items: center;
+    width: 400px;
+    height: auto;
+    border: 5px white solid;
+    justify-content: center;
+    padding: 10px;
+
+}
+.about-img img{
+        padding: 50px;
+        }
+.about-me{
+
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    font-size: 25px;
+}
+.about-me p8{
+    text-align: center;
+    width: 40%;
+}
+.about-title h1{
+    font-weight: 900;
+    font-size: 800px;
+    padding: 10px;
+
+}
+h1{
+    font-size: 45px;
+}
+
+.video-animations{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform: translateX(-400px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+} 
+*{
+    animation:alternate;
+    animation-timeline: view();
+    animation-range: 0 cover 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Third page - Projects */
+
+
+.projects{
+    width: 700px;
+    height: 300px;
+    background-color: red;
+    box-shadow: 5px 5px rgb(74, 223, 246);
+    border-radius: 20px;
+   background-image: url(Festava-Live-Template-HTML-CSS-Website-Templates.jpg);
+   text-align: center;
+   
+   background-size: cover;
+   background-position: center;
+    
+
+}
+.projects-2{
+    width: 700px;
+    height: 300px;
+    background-color: red;
+    box-shadow: 5px 5px rgb(74, 223, 246);
+    border-radius: 20px;
+   background-image: url(https://www.apparelentrepreneurship.com/wp-content/uploads/2023/01/How-To-Make-Your-Clothing-Brand-Stand-Out-In-A-Competitive-Market.jpg);
+   text-align: center;
+   
+   background-size: cover;
+   background-position: center;
+    
+
+}
+.projects h4{
+    /* background-color: rgb(106, 6, 6); */
+    color: #fff;
+    display: inline ;
+    font-size: 25px;
+   
+}
+.projects-2 h4{
+    /* background-color: rgb(106, 6, 6); */
+    color: #fff;
+    display: inline ;
+    font-size: 25px;
+   
+}
+
+.projects  button{
+    background-color: black;
+    color: rgb(234, 234, 234);
+    font-family: Montserrat;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 240px;
+    margin-left: 70px;
+    font-size: 25px;
+}
+.projects-2  button{
+    background-color: black;
+    color: rgb(234, 234, 234);
+    font-family: Montserrat;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 240px;
+    margin-left: 70px;
+    font-size: 25px;
+}
+
+.projects  button:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px rgb(60, 244, 237);
+}
+.projects-2  button:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px rgb(60, 244, 237);
+}
+
+.video-projects{
+    display: flex;
+   
+    justify-content: space-around  ;
+    padding: 70px;
+}
+
+.video-1{
+        background-color: white;
+    width: 390px;
+    height: 220px;
+    box-shadow: 5px 5px rgb(57, 220, 201);
+    border-radius: 5px;
+}
+.video-2{
+    background-color: white;
+    width: 39 0px;
+    height: 220px;
+    box-shadow: 5px 5px rgb(57, 220, 201);
+    border-radius: 5px;
+}
+
+.skill-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.video-editing{
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    box-shadow: 5px 5px rgb(41, 179, 194);
+    border-radius: 10px;
+    color: black;
+    font-size: 30px;
+    text-align: center;   
+    transition: transform 0.8s;
+    transform-style: preserve-3d; 
+}
+.Frontend{
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 5px 5px rgb(41, 179, 194);
+    border-radius: 10px;
+    color: black;
+    font-size: 30px;
+    text-align: center;  
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+}
+.wordpress{
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 5px 5px rgb(41, 179, 194);
+    border-radius: 10px;
+    color: black;
+    font-size: 30px;
+    text-align: center;  
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    
+
+
+}
+/* .video-editing button, .Frontend button{
+    background-color: white;
+    color: black;
+} */
+
+.video-editing:hover{
+   
+    background-image: url(images\ \(14\).jpeg);
+    transform: rotateY(180deg);
+    background-size: cover;
+    background-position: center;
+    font-size: 0px;
+    background-size: cover;
+    background-position: center;
+    font-size: 0px;
+
+}
+.Frontend:hover{
+    transform: rotateY(180deg);
+    background-image: url(0_oGTljj4iecJrcjfm.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 0px;
+    background-size: cover;
+    background-position: center;
+    font-size: 0px;
+}
+.wordpress:hover{
+    transform: rotateY(180deg);
+    background-image: url(wordpress-tutorials.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 0px;
+    background-size: cover;
+    background-position: center;
+    font-size: 0px;
+}
+.skill2{
+  justify-content: center;
+  padding: 20px;
+}
+.skill-main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+/* project page */
+
+.visit button{
+    box-shadow: 5px 5px rgb(52, 203, 216);
+}
+
+
+.hr-pro{
+    padding: 10px;
+   
+}
